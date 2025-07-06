@@ -15,6 +15,10 @@ body{
     font-family:Kanit;
 }
 
+li{
+    list-style:none;
+}
+
 .section{
    
     position:relative;
@@ -61,7 +65,6 @@ nav li{
     height:100%;
     font-size:18px;
     text-align:center;
-    list-style:none;
     padding:20px 30px;
     transition:100ms;
     
@@ -314,7 +317,138 @@ nav li:active:not(.logo){
 /*>>>>>ส่วนแสดงผลงาน*/
 
 #portfolio-sec{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
 
+.show-work{
+    display:none;
+    position:absolute;
+    background:var(--aqua);
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    padding:5rem;
+    flex-wrap:wrap;
+    z-index:1;
+    gap:3.33%;
+}
+
+.show-work li{
+    position:relative;
+    width:30%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:var(--white);
+    border-radius:20px;
+    overflow:hidden;
+    color:var(-black);
+    transition:500ms;
+
+    img{
+        width:100%;
+        position: absolute;
+        filter:blur(1px);
+    }
+    p{
+        z-index:1;
+        font-size:2rem;
+        text-shadow:0px 3px 5px var(--black);
+    }
+
+}
+
+.show-work li:hover{
+    transform:scale(1.05);
+    box-shadow:var(--black) 0px 5px 10px;
+    img{
+        filter:blur(0);
+    }
+    
+}
+
+.show-work li:active{
+    transform:scale(0.9);
+    
+}
+
+.exitbt{
+    position:absolute;
+    top:0px;
+    right:0px;
+    background:rgb(208, 69, 69);
+    width:5rem;
+    height:5rem;
+    margin:10px;
+    border-radius:360px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.exitbt:hover{
+    background:rgb(121, 50, 50);
+}
+
+.exitbt:active{
+    background:rgb(247, 58, 58);
+}
+
+.container-option{
+    display:flex;
+    gap:2rem;
+    margin:0;
+    padding:2rem;
+    width:80%;
+    height:80%;
+    box-sizing:border-box;
+}
+
+.container-option li{
+    padding:2rem;
+    background:var(--aqua);
+    list-style:none;
+    width:5rem;
+    height:5rem;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:300ms;
+    i{
+        font-size:4rem;
+    }
+}
+
+.container-option li:hover{
+    background:var(--darkaque);
+}
+
+.container-option li:active{
+    transform:scale(0.8);
+    background:var(--lightaqua);
+}
+
+@keyframes openwork{
+    from{
+        transform:scale(0);
+        border-radius:360px;
+    }
+}
+
+@keyframes closework{
+    0%{
+        transform:scale(1);
+        border-radius:0;
+    }
+    100%{
+        transform:scale(0);
+        border-radius:360px;
+    }
 }
 
 /*>>>>>ส่วนช่องทางการติดต่อ*/
