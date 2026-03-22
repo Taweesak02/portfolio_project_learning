@@ -1,0 +1,61 @@
+
+/*>>>>>ส่วนช่องทางการติดต่อ*/
+#contact-sec{
+    background:var(--black);
+    color:var(--white);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10%;
+    box-sizing: border-box;
+}
+
+#contact-sec  h1{
+    margin:0;
+    font-size:3rem;
+}
+
+#contact-sec  h2{
+    margin:0;
+    font-size:2rem;
+}
+
+#contact-sec  i{
+    font-size:2rem;
+}
+
+#contact-sec  input,textarea{
+    font-size:1.3rem;
+    width: 100%;
+    border-radius:10px; 
+}
+
+#contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#contact-form textarea{
+    resize: vertical;
+    
+}
+
+#contact-form > button{
+    font-size:2rem;
+}
+
+#contact-right{
+    text-align:right;
+    display:flex;
+    gap:15px;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#social{
+    display:flex;
+    justify-content:flex-end;
+    gap:1rem;
+}
+

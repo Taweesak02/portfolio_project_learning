@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link href="fonts/css/fontawesome.min.css" rel="stylesheet">
     <link href="fonts/css/solid.css" rel="stylesheet">
     <link href="fonts/css/brands.min.css" rel="stylesheet">
-    <script defer src="script.js"></script>
+    <script defer src="scripts/menu.js"></script>
     <title>portfolio</title>
 </head>
+
 <body>
+
     <!--เมนู-->
-   <nav>
+    <nav>
         <ul id="topbar">
             <li class="logo">
                 Taweesak.
@@ -40,7 +45,7 @@
             <li id="closebar">
                 <i class="fa-solid fa-xmark"></i>
             </li>
-           <li class="goto-home">
+            <li class="goto-home">
                 Home
             </li>
             <li class="goto-about">
@@ -52,74 +57,153 @@
             <li class="goto-contact">
                 Contact
             </li>
-            
+
         </ul>
-   </nav>
-   
-   <!--แสดงหน้าแรก-->
-   <div class="section" id="home-sec">
+    </nav>
+
+    <!--แสดงหน้าแรก-->
+    <section id="home-sec">
         <div class="picture"></div>
         <div class="introducing">
             <div class="intro-word">
                 <h1>Hi</h1>
                 <h1>I'm Taweesak</h1>
-                <h2>A Programmer and Artist</h2>
+                <h2>A Programmer</h2>
                 <button class="goto-about">Details</button>
             </div>
-            
-        </div>
-   </div>
 
-   <!--รายละเอียด ทำเกี่ยวกับอะไร จบไร สนใจอะไร-->
-   <div class="section" id="about-sec">
+        </div>
+    </section>
+
+    <!--รายละเอียด ทำเกี่ยวกับอะไร จบไร สนใจอะไร-->
+    <section id="about-sec">
         <div class="profile-pic">
-            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+            <img src="picture/S__29786135.jpg">
         </div>
         <div class="detail">
             <div id="wordbox">
-                <h2>
-                    ABOUT ME
-                </h2>
+                <h1>
+                    About Me
+                </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque modi impedit, assumenda id nobis deserunt beatae. Autem quisquam quaerat beatae, unde quo nesciunt. Molestiae reiciendis, cum assumenda itaque quod distinctio?
+                    My name is Taweesak Nakthap.
+                    I'm studying IT at Kasetsart University Kamphaeng Saen Campus.
                 </p>
+                <h1>
+                    Skills
+                </h1>
+                <div id="show-skill">
+                    <div class="skill">
+                        <img src="picture/logo/flutter.svg">
+                        Flutter
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/dart.svg">
+                        Dart
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/HTML.svg">
+                        HTML
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/css.svg">
+                        CSS
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/js.svg">
+                        JavaScript
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/java.svg">
+                        Java
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/github.svg">
+                        Github
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/docker.svg">
+                        Docker
+                    </div>
+                    <div class="skill">
+                        <img src="picture/logo/Spring_Boot.svg">
+                        SpringBoot
+                    </div>
+                </div>
             </div>
         </div>
-   </div>
+    </section>
 
-   <!--งาน ประสบการณ์ ผลงาน-->
-   <div class="section" id="portfolio-sec">
-        
-   </div>
+    <!--งาน ประสบการณ์ ผลงาน-->
+    <section id="portfolio-sec">
+        <div class="container">
+            <div class="header">
+                Portfolio
+            </div>
+            <div class="display">
+                <ul>
+                    <h1>งานเขียนโปรแกรม</h1>
+                    <li>
+                        <a href="https://github.com/Taweesak02/vendingmachine_project" target="_blank">
+                            <h2>vendingmachine_project</h2>
+                            <p>โปรแกรมเครื่องกดอัตโนมัติ</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-   <!--ช่องทางติดต่อ-->
-   <footer class="section" id="contact-sec">
+    <!--ช่องทางติดต่อ-->
+    <footer id="contact-sec">
+        <div>
+            <h1>
+                Contact
+            </h1>
+            <form id="contact-form">
 
-        <form class="contact-form">
-            <h2>Contact</h2>
+                <div>
+                    <h2>Name</h2>
+                    <input id="name" type="text" placeholder="Enter Name">
+                </div>
+                <div>
+                    <h2>Email</h2>
+                    <input id="email" type="email" placeholder="Enter Email">
+                </div>
+                <div>
+                    <h2>Message</h2>
+                    <textarea placeholder="Enter Message"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="contact-right">
             <div>
-                <label>Firstname</label>
-                <input type="text">
-                <label>Lastname</label>
-                <input type="text">
-                
+                <h2>
+                    Email
+                </h2>
+                <a>kkopai606@gmail.com</a><br>
+                <a>taweesak.n@ku.th</a>
             </div>
-    
-            <label>E-mail</label>
-            <input type="email">
-        
-            <label>Message</label>
-            <textarea></textarea>
-
-            <button>Submit</button>
-        </form>
-        <div class="social">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <h2>
+                    Address
+                </h2>
+                <a>Ratchaburi Thailand</a>
+            </div>
+            <div>
+                <h2>Social</h2>
+                <div id="social">
+                    <a href="https://www.instagram.com/bba061/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/taweesak.nakthap#" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Taweesak02" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
         </div>
-        
-   </footer>
-   
+
+    </footer>
 </body>
+
 </html>

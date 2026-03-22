@@ -1,0 +1,89 @@
+/*ส่วนคำสั่ง*/
+nav{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background:var(--black);
+    color:var(--white);
+    background-image:linear-gradient(var(--black),var(--purple)) ;
+    box-shadow:0 5px 20px rgba(70, 70, 77, 1);
+    position:fixed;
+    width:100%;
+    animation:nav-appear 2s ease;
+    z-index:2;
+}
+
+nav ul{
+    margin:0px;
+    padding:0;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+        
+nav .logo{
+    margin-right:auto;
+}
+
+nav li{
+    width:80px;
+    height:100%;
+    font-size:18px;
+    text-align:center;
+    padding:20px 30px;
+    transition:100ms;
+    
+}
+
+nav li:hover:not(.logo){
+    background:rgb(68, 73, 79);
+}
+
+
+nav li:active:not(.logo){
+    background:rgb(187, 187, 187);
+    color:var(--black);
+    
+}
+
+#shortbar{
+    display:none;
+}
+
+#dropdownbar{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    background:var(--black);
+    
+}
+
+#dropdownbar li{
+    width:100%;
+    padding:30px 0px;
+}
+
+@keyframes dropdown-appear{
+    0%{
+        
+        height:0;
+    }
+    100%{
+        height:100%;
+    }
+}
+
+@keyframes nav-appear{
+   from{
+        transform:translate(0,-30vh)
+   }
+}
+
+@media only screen and (max-width:807px){
+    nav ul:not(#dropdownbar) li:not(.logo,#shortbar){
+        display:none;
+    }
+    nav #shortbar{
+        display:block;
+    }
+}

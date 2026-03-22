@@ -1,0 +1,105 @@
+/*ส่วนหน้าแรก*/
+
+#home-sec{
+    display:flex;
+    flex-basis:0;
+}
+
+.picture{
+    flex:2;
+    overflow:hidden;
+    background-image:url("../picture/IMG_0504.webp");
+    background-position:0% 0%;
+    animation:bigbg-start 600ms ease,bigbg-around 200s linear 2s infinite alternate;
+}
+
+.introducing{
+    flex:1;
+    color:var(--black);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+    h1,h2{
+        margin:0px;
+        overflow:hidden;
+        white-space:nowrap;
+        animation:word-appear 500ms ease-in;
+    }
+
+    h1{
+        font-size:4rem;
+        
+    }
+
+
+    h2{
+        font-weight:300;
+    }
+
+}
+
+.intro-word{
+    margin-top:10rem;
+    margin-left:3rem;
+}
+
+.intro-word button{
+    margin-top:3rem;
+    background:var(--aqua);
+    padding:10px 50px;
+    border-style:none;
+    border-radius:15px;
+    font-size:15px;
+    color:var(--white);
+    transition:500ms;
+    position:relative;
+
+}
+
+    
+.intro-word button:hover{
+    background:var(--darkaque);
+    transform:scale(1.05);
+    
+}
+
+.intro-word button:active{
+    animation:bt-active 1s ease;
+    transition:50ms;
+    background:var(--black);
+}
+
+@keyframes word-appear{
+    from{
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
+
+@keyframes bt-active{
+    0%{
+        transform:scale(1);
+    }
+    25%{
+        transform:scale(0.9);
+    }
+}
+
+
+@keyframes bigbg-around{
+    
+    100%{background-position:100% 0%;}
+   
+}
+
+@keyframes bigbg-start{
+    0%{
+        transform:translate(-80vw,0);
+    }
+    100%{
+        transform:translate(0,0);
+    }
+}

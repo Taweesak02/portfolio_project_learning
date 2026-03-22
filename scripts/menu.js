@@ -8,6 +8,26 @@ const aboutBt = document.querySelectorAll(".goto-about")
 const portBt = document.querySelectorAll(".goto-port")
 const contactBt = document.querySelectorAll(".goto-contact")
 
+function smoothScroll(elementId) {
+    const element = document.getElementById(elementId)
+    const targetPosition = element.offsetTop
+    const startPosition = window.pageYOffset
+    const distance = targetPosition - startPosition
+    const duration = 200
+    let start = null
+
+    window.requestAnimationFrame(function step(timestamp) {
+        if (!start) start = timestamp
+        const progress = timestamp - start
+        const percentage = Math.min(progress / duration, 1)
+        window.scrollTo(0, startPosition + distance * percentage)
+        
+        if (progress < duration) {
+            window.requestAnimationFrame(step)
+        }
+    })
+}
+
 shortbarDOM.addEventListener("click",()=>{
     dropdownbarDOM.style.display = "flex"
     topbarDOM.style.display = "none"
@@ -28,25 +48,25 @@ window.addEventListener("resize",()=>{
 })
 
 homeBt.forEach(i=>{
-    i.addEventListener("click",()=>{
-        document.getElementById("home-sec").scrollIntoView({ behavior:"smooth"})
+      i.addEventListener("click",()=>{
+        smoothScroll("home-sec")
     })
 })
 
 aboutBt.forEach(i=>{
     i.addEventListener("click",()=>{
-        document.getElementById("about-sec").scrollIntoView({behavior:"smooth"})
+        smoothScroll("about-sec")
     })
 })
 
 portBt.forEach(i=>{
     i.addEventListener("click",()=>{
-        document.getElementById("portfolio-sec").scrollIntoView({behavior:"smooth"})
+       smoothScroll("portfolio-sec")
     })
 })
 
 contactBt.forEach(i=>{
     i.addEventListener("click",()=>{
-        document.getElementById("contact-sec").scrollIntoView({behavior:"smooth"})
+        smoothScroll("contact-sec")
     })
 })
