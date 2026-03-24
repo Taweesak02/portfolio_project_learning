@@ -1,5 +1,5 @@
 const shortbarDOM = document.getElementById("shortbar")
-const topbarDOM = document.getElementById("topbar")
+const topbarDOM = document.getElementById("menubar")
 const dropdownbarDOM = document.getElementById("dropdownbar")
 const closebarDOM = document.getElementById("closebar")
 
@@ -69,32 +69,4 @@ contactBt.forEach(i=>{
     i.addEventListener("click",()=>{
         smoothScroll("contact-sec")
     })
-})
-
-bt_coding_option.addEventListener("click",()=>{
-    show_work[0].style.display = "flex"
-    show_work[0].style.alignItems = "center"
-    show_work[0].style.animation = "openwork 500ms"
-})
-
-bt_artwork_option.addEventListener("click",()=>{
-    show_work[1].style.display = "flex"
-    show_work[1].style.alignItems = "center"
-    show_work[1].style.animation = "openwork 500ms"
-})
-
-bt_exit[0].addEventListener("click",()=>{
-    show_work[0].style.animation = "closework 500ms"
-
-    setTimeout(() => {
-        show_work[0].style.display = "none";
-    }, 500)
-    
-})
-
-bt_exit[1].addEventListener("click",()=>{
-    show_work[1].style.animation = "closework 500ms"
-    setTimeout(() => {
-        show_work[1].style.display = "none";
-    }, 500)
 })

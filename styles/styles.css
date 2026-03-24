@@ -1,8 +1,8 @@
-@import url("styles/menu_style.css");
-@import url("styles/home_style.css");
-@import url("styles/about_style.css");
-@import url("styles/portfolio_style.css");
-@import url("styles/contact_style.css");
+@import url("menu_style.css");
+@import url("home_style.css");
+@import url("about_style.css");
+@import url("portfolio_style.css");
+@import url("contact_style.css");
 
 :root{
     --white:#F2EFE7;

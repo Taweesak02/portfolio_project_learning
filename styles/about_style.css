@@ -12,6 +12,7 @@
 
 .profile-pic{
     flex:1;
+    text-align:center;
     img{
         width:80%;
         height:80%;
@@ -25,7 +26,6 @@
     padding-right:5rem;
     display: flex;
     align-items: center;
-    
 }
 
 .detail img{
@@ -46,13 +46,19 @@
     align-items:center;
     padding:6px;
     border:2px solid var(--aqua);
+    background:var(--black);
     border-radius:15px;
+    transition:100ms ease;
+}
+
+.skill:hover{
+    transform:scale(1.2);
+    box-shadow:0px 0px 5px var(--white);
 }
 
 #wordbox{
 
     max-width:60ch;
-    position:relative;
 }
 
 #wordbox h1{
@@ -78,4 +84,5 @@
 #wordbox p{
     margin:0;
 }
+
 

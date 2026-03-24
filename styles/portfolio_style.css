@@ -19,52 +19,43 @@
     border:5px solid var(--black);
 }
 
-.container > .header{
+.container .header{
     padding-left:2rem;
     align-items:center;
     font-size:50px;
     background:var(--black);
     color:var(--white);
-    border-bottom:5px solid var(--black);
+    align-content:center;
     grid-area:header;
 }
 
-.container > .display{
+#display{
     display:flex;
     flex-direction:column;
     padding-left:2rem;
+    padding-right:2rem;
     padding-top:1rem;
     overflow:auto;
+    gap:1rem;
 }
 
-.display ul{
-    display:flex;
-    flex-direction:column;
-    width:80%;
-    margin:0;
-    gap:20px;
-}
-
-.display li{
+.project{
     padding:10px;
     box-shadow:2px 2px 2px 3px grey;
     border-radius:10px;
     position:relative;
-
-}
-.display h1{
-    margin:0;
-    text-decoration:underline;
+    transition:500ms ease;
 }
 
-.display h2{
+.project h2{
     margin:0;
 }
 
-.display a{
+.project a{
     text-decoration:none;
 }
 
-.display p{
+.project p{
     margin:0;
 }
+
