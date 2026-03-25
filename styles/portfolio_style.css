@@ -52,6 +52,7 @@
 }
 
 .project a{
+    display:block;
     text-decoration:none;
 }
 
@@ -59,3 +60,43 @@
     margin:0;
 }
 
+.project i{
+    font-size:2rem;
+}
+
+.project-details
+{
+    padding:10px;
+    box-shadow:2px 2px 2px 3px grey;
+    border-radius:10px;
+       
+}
+
+.project-details p,h2{
+    margin:0;
+}
+
+.project-details i {
+    font-size:2rem;
+}
+
+.project-details button{
+    position:absolute;
+    width:10%;
+    height:10%;
+    border-radius:15px;
+    background:red;
+    color:var(--white);
+    right:13%;
+    top:11%;
+}
+
+.project-images{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project-images img{
+    width:80%;
+}

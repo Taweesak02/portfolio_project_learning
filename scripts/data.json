@@ -1,13 +1,30 @@
 {
     "project1": {
-        "name": "Prjoect 1",
-        "description": "A sample project for demonstration purposes.",
-        "link": ""
+        "name": "vendingmachine Project",
+        "description": "โปรแกรมเครื่องกดอัตโนมัติ",
+        "link": "https://github.com/Taweesak02/vendingmachine_project",
+         "picture": [
+            "picture/project_pic/project1/pic1.webp",
+            "picture/project_pic/project1/pic2.webp",
+            "picture/project_pic/project1/pic3.webp",
+            "picture/project_pic/project1/pic4.webp",
+            "picture/project_pic/project1/pic5.webp",
+            "picture/project_pic/project1/pic6.webp",
+            "picture/project_pic/project1/pic7.webp"
+        ]
     },
     "project2": {
-        "name": "Another Project",
+        "name": "Order Tracking project",
         "description": "Another sample project for demonstration purposes.",
-        "link": "Jane Smith"
+        "link": "https://github.com/Taweesak02/OrderTracking_project_241",
+        "picture": [
+            "picture/project_pic/project2/orderweb.webp"
+        ]
+    },
+    "project3": {
+        "name": "Flutter Food Menu project",
+        "description": "Another sample project for demonstration purposes.",
+        "link": "https://github.com/Taweesak02/flutter_food-menu_learning"
     }
 
 }
