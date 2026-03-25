@@ -130,6 +130,8 @@
 #left-bt,#right-bt{
     position:absolute;
     top:50%;
+    height:2rem;
+    
 }
 #left-bt{
     left:-10%;

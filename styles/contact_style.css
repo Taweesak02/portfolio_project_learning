@@ -49,6 +49,8 @@
 
 #contact-form button{
     font-size:2rem;
+    width: 100%;
+    align-self:center;
 }
 
 #contact-social{

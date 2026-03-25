@@ -1,5 +1,5 @@
 const display = document.getElementById("display")
-
+let currentIndex;
 
 async function addProjects() {
     try {
@@ -62,8 +62,45 @@ async function addProjectListener(projectId) {
 
     display.innerHTML = ""
     display.appendChild(projectdetails)
-    
+
+    if(Object.hasOwn(data[projectId], "picture")) {
+        const leftBt = document.getElementById("left-bt")
+        const rightBt = document.getElementById("right-bt")
+        currentIndex = 0
+
+        leftBt.addEventListener("click", () => moveImage("left"))
+
+        rightBt.addEventListener("click", () => moveImage("right"))
+    }
 }   
 
 addProjects()
 
+
+
+    
+
+function moveImage(direction) {
+    const projectImages = document.querySelector(".project-images")
+    const images = document.querySelectorAll(".project-images img")
+    const totalImages = images.length
+    console.log(currentIndex)
+    if (direction === "left") {
+        if (currentIndex === 0) {
+            currentIndex = totalImages
+            projectImages.style.transform = `translateX(-${totalImages * 100}%)`
+        }
+        currentIndex--
+        projectImages.style.transform = `translateX(-${currentIndex * 100}%)`
+        
+
+    } else if (direction === "right") {
+        if (currentIndex === totalImages-1) {
+            currentIndex = -1
+        }
+        currentIndex++
+        projectImages.style.transform = `translateX(-${currentIndex * 100}%)`
+        
+        
+    }
+}
