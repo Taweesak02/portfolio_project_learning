@@ -36,18 +36,27 @@ async function addProjectListener(projectId) {
     projectdetails.className = "project-details"
     projectdetails.id = projectId
     projectdetails.innerHTML = `
-        <button onclick="addProjects()">ย้อนกลับ</button>
-        <h2>${data[projectId].name}</h2>
-        <p>${data[projectId].description}</p>
-        <a href="${data[projectId].link}" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <button onclick="addProjects()"><i class="fa-solid fa-x"></i></button>
+        <h1>${data[projectId].name}</h1>
+        <p>${data[projectId].detail}</p>
+        <a href="${data[projectId].link}" target="_blank"><i class="fa-brands fa-github"></i><p>ดู Project</p></a>
         
     `
 
     if(Object.hasOwn(data[projectId], "picture")) {
         projectdetails.innerHTML += 
-        `<div class ="project-images">
-            ${data[projectId].picture.map(pic => `<img src="${pic}" alt="Project Image">`).join("")}
-        </div>`
+        `
+        <div class="project-pictures">
+            <button id="left-bt"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="right-bt"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="project-border">
+                <div class ="project-images">
+                    ${data[projectId].picture.map(pic => `<img src="${pic}" alt="Project Image">`).join("")}
+                </div>
+            </div>
+            
+        </div>
+        `
         console.log("Picture found")
     }
 

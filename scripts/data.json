@@ -2,6 +2,7 @@
     "project1": {
         "name": "vendingmachine Project",
         "description": "โปรแกรมเครื่องกดอัตโนมัติ",
+        "detail":"โปรแกรมเครื่องกดอัตโนมัติที่จำลองการทำงานของเครื่องขายสินค้าอัตโนมัติ โดยผู้ใช้สามารถเลือกซื้อสินค้าต่าง ๆ ได้ตามต้องการ และโปรแกรมจะคำนวณยอดเงินที่ต้องชำระและแสดงผลลัพธ์ให้ผู้ใช้ทราบ",
         "link": "https://github.com/Taweesak02/vendingmachine_project",
          "picture": [
             "picture/project_pic/project1/pic1.webp",
@@ -16,6 +17,7 @@
     "project2": {
         "name": "Order Tracking project",
         "description": "Another sample project for demonstration purposes.",
+        "detail": "โปรแกรมติดตามคำสั่งซื้อที่ช่วยให้ผู้ใช้สามารถตรวจสอบสถานะของคำสั่งซื้อได้อย่างง่ายดาย โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อดึงข้อมูลคำสั่งซื้อและแสดงผลลัพธ์ให้ผู้ใช้ทราบ",
         "link": "https://github.com/Taweesak02/OrderTracking_project_241",
         "picture": [
             "picture/project_pic/project2/orderweb.webp"
@@ -24,6 +26,7 @@
     "project3": {
         "name": "Flutter Food Menu project",
         "description": "Another sample project for demonstration purposes.",
+        "detail": "โปรแกรมเมนูอาหารที่พัฒนาด้วย Flutter ซึ่งช่วยให้ผู้ใช้สามารถเรียกดูเมนูอาหารต่าง ๆ ได้อย่างสะดวกสบาย โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อดึงข้อมูลเมนูอาหารและแสดงผลลัพธ์ให้ผู้ใช้ทราบ",
         "link": "https://github.com/Taweesak02/flutter_food-menu_learning"
     }
 

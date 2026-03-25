@@ -65,3 +65,24 @@
     gap:1rem;
 }
 
+@media only screen and (max-width:807px){
+    #contact-sec{
+        flex-direction:column;
+        justify-content:center;
+        gap:2rem;
+    }
+
+    #contact-form{
+        width:100%;
+        
+    }
+
+    #contact-social{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+
+    #contact-social h2{
+        font-size:1rem;
+    }
+}
