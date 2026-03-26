@@ -38,6 +38,8 @@
         font-weight:300;
     }
 
+
+
 }
 
 .intro-word{
@@ -70,6 +72,28 @@
     transition:50ms;
     background:var(--black);
 }
+
+#show-contact{
+    margin-top:1rem;
+    display:flex;
+    gap:1rem;
+ 
+}
+
+#show-contact i{
+    font-size:2rem;
+    transition:200ms ease;
+}
+
+#show-contact i:hover{
+    transform:scale(1.2);
+}
+
+#show-contact i:active{
+    color:var(--aqua);
+}
+
+
 
 @keyframes word-appear{
     from{
@@ -117,5 +141,8 @@
         background-image:url("../picture/IMG_0504.webp");
         opacity: 0.2;
         z-index: -1;
+    }
+    .introducing h1{
+        font-size:3rem;
     }
 }
