@@ -47,7 +47,12 @@
     margin-left:3rem;
 }
 
-.intro-word button{
+.show-button{
+    display:flex;
+    gap:1rem;
+}
+
+.show-button button{
     margin-top:3rem;
     background:var(--aqua);
     padding:10px 50px;
@@ -57,20 +62,39 @@
     color:var(--white);
     transition:500ms;
     position:relative;
+    cursor: pointer;
 
 }
 
     
-.intro-word button:hover{
+.show-button button:hover{
     background:var(--darkaque);
     transform:scale(1.05);
     
 }
 
-.intro-word button:active{
+.show-button button:active{
     animation:bt-active 1s ease;
     transition:50ms;
     background:var(--black);
+}
+
+.show-button .resume{
+    background:var(--white);
+    color:var(--black);
+    border: 3px solid var(--aqua);
+    border-radius:15px;
+}
+
+.show-button .resume:hover{
+    background:grey;
+    color:var(--white);
+    
+}
+
+.show-button .resume:active{
+    background:var(--black);
+    border:3px solid var(--black);
 }
 
 #show-contact{

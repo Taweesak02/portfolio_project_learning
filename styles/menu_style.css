@@ -37,6 +37,7 @@ nav li{
 
 nav li:hover:not(.logo){
     background:rgb(68, 73, 79);
+    cursor: pointer;
 }
 
 

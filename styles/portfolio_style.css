@@ -47,6 +47,7 @@
     border-radius:10px;
     position:relative;
     transition:500ms ease;
+    cursor: pointer;
 }
 
 .project h2{
