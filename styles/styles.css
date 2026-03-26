@@ -7,6 +7,7 @@
 :root{
     --white:#F2EFE7;
     --black:#222831;
+    --darkblack:#16181a;
     --lightaqua:#9ACBD0;
     --aqua:#48A6A7;
     --darkaque:#006A71;
@@ -37,6 +38,9 @@ section,footer{
     height:100vh;
     overflow: hidden;
    
+}
+footer{
+    height:50vh;
 }
 
 

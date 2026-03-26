@@ -5,7 +5,9 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    position:relative;
 }
+
 
 .container{
     width:80%;
@@ -164,5 +166,18 @@
     }
     100%{
         color:white;
+    }
+}
+
+
+@media only screen and (max-width:807px){
+    .container{
+        width:90%;
+        height:90%;
+    }
+
+    .project-details button{
+        top:8%;
+        right:8%;
     }
 }

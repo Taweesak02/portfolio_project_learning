@@ -1,4 +1,29 @@
 {
+    
+    "project2": {
+        "name": "Order Tracking project",
+        "description": "โปรแกรมติดตามคำสั่งซื้อ",
+        "detail": "โปรแกรมติดตามคำสั่งซื้อที่ช่วยให้ผู้ใช้สามารถตรวจสอบสถานะของคำสั่งซื้อ เพิ่มคำสั่งซื้อ ลบคำสั่งซื้อ โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อเก็บและดึงข้อมูลคำสั่งซื้อ สามารถแสดงเป็นสถิติได้",
+        "link": "https://github.com/Taweesak02/OrderTracking_project_241",
+        "picture": [
+            "picture/project_pic/project2/pic1.webp",
+            "picture/project_pic/project2/pic2.webp",
+            "picture/project_pic/project2/pic3.webp",
+            "picture/project_pic/project2/pic4.webp",
+            "picture/project_pic/project2/pic5.webp",
+            "picture/project_pic/project2/pic6.webp",
+            "picture/project_pic/project2/pic7.webp"
+        ]
+    },
+    "project3": {
+        "name": "Spring Boot project",
+        "description": "โปรเจกต์ Spring Boot คำนวณ BMI",
+        "detail": "การทำงานคำนวณค่า BMI ใช้ Spring Boot ในการพัฒนาโปรเจกต์นี้ โดยผู้ใช้สามารถเพิ่มข้อมูลส่วนสูง น้ำหนัก และอายุ ลบข้อมูลผู้ใช้ และแสดงผลลัพธ์ โดยใช้ผ่าน API",
+        "link": "https://github.com/Taweesak02/Spring-Boot-Learn",
+        "picture": [
+            "picture/project_pic/project3/pic1.webp"
+        ]
+    },
     "project1": {
         "name": "vendingmachine Project",
         "description": "โปรแกรมเครื่องกดอัตโนมัติ",
@@ -14,33 +39,27 @@
             "picture/project_pic/project1/pic7.webp"
         ]
     },
-    "project2": {
-        "name": "Order Tracking project",
-        "description": "โปรแกรมติดตามคำสั่งซื้อ",
-        "detail": "โปรแกรมติดตามคำสั่งซื้อที่ช่วยให้ผู้ใช้สามารถตรวจสอบสถานะของคำสั่งซื้อ เพิ่มคำสั่งซื้อ ลบคำสั่งซื้อ โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อเก็บและดึงข้อมูลคำสั่งซื้อ สามารถแสดงเป็นสถิติได้",
-        "link": "https://github.com/Taweesak02/OrderTracking_project_241",
+    "project4": {
+        "name": "Portfolio project",
+        "description": "เว็บพอร์ตโฟลิโอส่วนตัวที่พัฒนาด้วย HTML, CSS และ JavaScript",
+        "detail": "เว็บพอร์ตโฟลิโอส่วนตัวที่พัฒนาด้วย HTML, CSS และ JavaScript โดยมีการแสดงข้อมูลส่วนตัวต่างๆ เช่น การศึกษา ช่องทางติดต่อ และโปรเจกต์ต่างๆที่เคยทำมา",
+        "link": "https://github.com/Taweesak02/portfolio_project_learning",
         "picture": [
-            "picture/project_pic/project2/pic1.webp",
-            "picture/project_pic/project2/pic2.webp",
-            "picture/project_pic/project2/pic3.webp",
-            "picture/project_pic/project2/pic4.webp",
-            "picture/project_pic/project2/pic5.webp"
+            "picture/project_pic/project4/pic1.webp",
+            "picture/project_pic/project4/pic2.webp",
+            "picture/project_pic/project4/pic3.webp",
+            "picture/project_pic/project4/pic4.webp",
+            "picture/project_pic/project4/pic5.webp"
         ]
     },
-    "project3": {
-        "name": "Spring Boot project",
-        "description": "โปรเจกต์ Spring Boot คำนวณ BMI",
-        "detail": "การทำงานคำนวณค่า BMI ใช้ Spring Boot ในการพัฒนาโปรเจกต์นี้ โดยผู้ใช้สามารถเพิ่มข้อมูลส่วนสูง น้ำหนัก และอายุ ลบข้อมูลผู้ใช้ และแสดงผลลัพธ์ โดยใช้ผ่าน API",
-        "link": "https://github.com/Taweesak02/Spring-Boot-Learn"
-    },
-    "project4": {
+    "project5": {
         "name": "Flutter Food Menu project",
         "description": "โปรแกรมเมนูอาหารที่พัฒนาด้วย Flutter",
         "detail": "โปรแกรมเมนูอาหารที่พัฒนาด้วย Flutter",
         "link": "https://github.com/Taweesak02/flutter_food-menu_learning",
         "picture": [
-            "picture/project_pic/project3/pic1.webp",
-            "picture/project_pic/project3/pic2.webp"
+            "picture/project_pic/project5/pic1.webp",
+            "picture/project_pic/project5/pic2.webp"
         ]
     }
 
