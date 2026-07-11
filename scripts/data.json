@@ -24,6 +24,18 @@
             "picture/project_pic/project3/pic1.webp"
         ]
     },
+    "project6": {
+        "name": "Gallery API Project",
+        "description": "REST API จัดเก็บภาพวาด",
+        "detail": "REST API Project เกี่ยวกับการจัดเก็บภาพวาดลงฐานข้อมูล ที่มีระบบยืนยันตัวตนด้วย JWT และมีการทำเอกสาร API ด้วย Swagger",
+        "link": "https://github.com/Taweesak02/Gallery-API-Project",
+        "picture": [
+            "picture/project_pic/project6/pic1.webp",
+            "picture/project_pic/project6/pic2.webp",
+            "picture/project_pic/project6/pic3.webp",
+            "picture/project_pic/project6/pic4.webp"
+        ]
+    },
     "project1": {
         "name": "vendingmachine Project",
         "description": "โปรแกรมเครื่องกดอัตโนมัติ",
@@ -62,5 +74,6 @@
             "picture/project_pic/project5/pic2.webp"
         ]
     }
+    
 
 }
