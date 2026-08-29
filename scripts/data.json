@@ -3,7 +3,7 @@
     "project2": {
         "name": "Order Tracking project",
         "description": "โปรแกรมติดตามคำสั่งซื้อ",
-        "detail": "โปรแกรมติดตามคำสั่งซื้อที่ช่วยให้ผู้ใช้สามารถตรวจสอบสถานะของคำสั่งซื้อ เพิ่มคำสั่งซื้อ ลบคำสั่งซื้อ โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อเก็บและดึงข้อมูลคำสั่งซื้อ สามารถแสดงเป็นสถิติได้",
+        "detail": "โปรแกรมติดตามคำสั่งซื้อที่ช่วยให้ผู้ใช้สามารถตรวจสอบสถานะของคำสั่งซื้อ เพิ่มคำสั่งซื้อ ลบคำสั่งซื้อ โดยโปรแกรมจะเชื่อมต่อกับฐานข้อมูลเพื่อเก็บและดึงข้อมูลคำสั่งซื้อ สามารถแสดงเป็นสถิติได้ โปรเจกต์ใช้ HTML CSS ในการสร้าง FrontEnd และใช้ Node.js ในการพัฒนา BackEnd พร้อมระบบฐานข้อมูล MySQL",
         "link": "https://github.com/Taweesak02/OrderTracking_project_241",
         "picture": [
             "picture/project_pic/project2/pic1.webp",
@@ -15,10 +15,20 @@
             "picture/project_pic/project2/pic7.webp"
         ]
     },
+    "project7": {
+        "name": "User Manager Backend API project",
+        "description": "โปรเจกต์ระบบจัดการสมาชิกผ่าน API",
+        "detail": "ระบบจัดการสมาชิกผ่าน API โดยมีระบบการยืนยันตัวตนด้วย JWT, การควบคุมสิทธิ์ตาม Role และมีเอกสาร API ครบถ้วนผ่าน Swagger UI โดยระบบได้ใช้ Spring Boot ในการพัฒนาโปรเจกต์ และฐานข้อมูลแบบ MySQL โดยมี Flyway เป็น Database Migration และรองรับการใช้งานผ่าน Docker",
+        "link": "https://github.com/Taweesak02/new_backend_test",
+        "picture": [
+            "picture/project_pic/project7/pic1.webp",
+            "picture/project_pic/project7/pic2.webp"
+        ]
+    },
     "project3": {
-        "name": "Spring Boot project",
-        "description": "โปรเจกต์ Spring Boot คำนวณ BMI",
-        "detail": "การทำงานคำนวณค่า BMI ใช้ Spring Boot ในการพัฒนาโปรเจกต์นี้ โดยผู้ใช้สามารถเพิ่มข้อมูลส่วนสูง น้ำหนัก และอายุ ลบข้อมูลผู้ใช้ และแสดงผลลัพธ์ โดยใช้ผ่าน API",
+        "name": "BMR Calculator API project",
+        "description": "โปรเจกต์คำนวณค่า BMR ผ่้าน API",
+        "detail": "การคำนวณค่า BMR โดยใช้ผ่าน API โดยผู้ใช้สามารถเพิ่มข้อมูลส่วนสูง น้ำหนัก และอายุ ลบข้อมูลผู้ใช้ และแสดงผลลัพธ์เป็นค่า BMR โดยใช้ Spring Boot ในการพัฒนาโปรเจกต์นี้",
         "link": "https://github.com/Taweesak02/Spring-Boot-Learn",
         "picture": [
             "picture/project_pic/project3/pic1.webp"
@@ -26,8 +36,8 @@
     },
     "project6": {
         "name": "Gallery API Project",
-        "description": "REST API จัดเก็บภาพวาด",
-        "detail": "REST API Project เกี่ยวกับการจัดเก็บภาพวาดลงฐานข้อมูล ที่มีระบบยืนยันตัวตนด้วย JWT และมีการทำเอกสาร API ด้วย Swagger",
+        "description": "โปรเจกต์จัดเก็บภาพวาดผ่าน API ",
+        "detail": "โปรเจกต์จัดเก็บภาพวาดผ่าน API เกี่ยวกับการจัดเก็บภาพวาดลงฐานข้อมูล โดยมีระบบยืนยันตัวตนแบบ JWT การจัดเก็บข้อมูลรูปภาพลงฐานข้อมูล และมีเอกสาร API ด้วย Swagger โดยโปรเจกต์นี้พัฒนาด้วย Node.js และใช้ระบบฐานข้อมูล PostgreSQL ในการเก็บข้อมูลของระบบ และสามารถใช้งานผ่าน Docker ได้",
         "link": "https://github.com/Taweesak02/Gallery-API-Project",
         "picture": [
             "picture/project_pic/project6/pic1.webp",
@@ -39,7 +49,7 @@
     "project1": {
         "name": "vendingmachine Project",
         "description": "โปรแกรมเครื่องกดอัตโนมัติ",
-        "detail":"โปรแกรมเครื่องกดอัตโนมัติ จำลองการทำงานของเครื่องขายสินค้าอัตโนมัติ ที่พัฒนาด้วย Flutter โดยผู้ใช้สามารถเลือกซื้อสินค้าต่าง ๆ ได้ตามต้องการ และโปรแกรมจะคำนวณยอดเงินที่ต้องชำระและแสดงผลลัพธ์ให้ผู้ใช้ทราบ",
+        "detail":"โปรแกรมเครื่องกดอัตโนมัติ จำลองการทำงานของเครื่องขายสินค้าอัตโนมัติ โดยผู้ใช้สามารถเลือกซื้อสินค้าต่าง ๆ ได้ตามต้องการ และโปรแกรมจะคำนวณยอดเงินที่ต้องชำระและแสดงผลลัพธ์ให้ผู้ใช้ทราบ โดยโปรเจกต์พัฒนาด้วย Flutter ",
         "link": "https://github.com/Taweesak02/vendingmachine_project",
          "picture": [
             "picture/project_pic/project1/pic1.webp",
@@ -53,7 +63,7 @@
     },
     "project4": {
         "name": "Portfolio project",
-        "description": "เว็บพอร์ตโฟลิโอส่วนตัวที่พัฒนาด้วย HTML, CSS และ JavaScript",
+        "description": "เว็บพอร์ตโฟลิโอ แสดงข้อมูลต่างๆ",
         "detail": "เว็บพอร์ตโฟลิโอส่วนตัวที่พัฒนาด้วย HTML, CSS และ JavaScript โดยมีการแสดงข้อมูลส่วนตัวต่างๆ เช่น การศึกษา ช่องทางติดต่อ และโปรเจกต์ต่างๆที่เคยทำมา",
         "link": "https://github.com/Taweesak02/portfolio_project_learning",
         "picture": [
@@ -66,7 +76,7 @@
     },
     "project5": {
         "name": "Flutter Food Menu project",
-        "description": "โปรแกรมเมนูอาหารที่พัฒนาด้วย Flutter",
+        "description": "โปรแกรมเมนูอาหาร",
         "detail": "โปรแกรมเมนูอาหารที่พัฒนาด้วย Flutter",
         "link": "https://github.com/Taweesak02/flutter_food-menu_learning",
         "picture": [
